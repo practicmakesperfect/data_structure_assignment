@@ -1,0 +1,24 @@
+//add an array and jump when gets zero and store an other array
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main (){
+   int i=6;
+   int e=0;
+   int array[]={4,6,0,7,8,0};
+   int sum1[2];
+   int arr[i];
+   for(int i=0;i<5;i++){
+   if (array[i]==0){
+       e++;
+   continue;
+   }
+   else{
+    sum1[e]+=array[i];
+   }
+   }
+    cout<<"sum="<<sum1[0];
+    cout<<"sum="<<sum1[1];
+   
+    return 0;
+}
